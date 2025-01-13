@@ -1,0 +1,48 @@
+body {
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95vh;
+    background-color: rgb(189, 225, 246);
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.btn-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #fff;
+    border-radius: 18px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 25px 60px;
+
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+
+.btn:hover {
+    color: #3d10e2;
+}
+
+.btn:hover::after {
+    top: 25px;
+}
