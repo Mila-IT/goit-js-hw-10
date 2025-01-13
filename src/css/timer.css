@@ -1,5 +1,5 @@
 body {
-    background-color: #88818f;
+    background-color: #faf748;
     font-family: Montserrat;
 }
 
@@ -16,7 +16,7 @@ body {
     top: 0;
     left: 0;
 
-    color: #fff;
+    color: #4174f4;
     text-decoration: none;
     border: 3px solid #fff;
     border-radius: 18px;
@@ -38,28 +38,15 @@ body {
     width: 370px;
     height: 370px;
     border-radius: 140px;
-    background-color: #fff;
+
     top: 50px;
     left: 50%;
-    z-index: -1;
-
-    animation: wave 5s infinite linear;
-    transition: all 1s;
-
+  
 }
 
-@keyframes wave {
-    0% {
-        transform: translateX(-50%) rotate(0deg);
-    }
-
-    100% {
-        transform: translateX(-50%) rotate(360deg);
-    }
-}
 
 .btn:hover {
-    color: #88818f;
+    color: #f4e954;
 }
 
 .btn:hover::after {
@@ -82,40 +69,6 @@ body {
     text-align: center;
 }
 
-.position.animated::before {
-    content: '';
-    position: absolute;
-    z-index: -2;
-    left: -80%;
-    top: -70%;
-    width: 250%;
-    height: 250%;
-
-    background-color: #88818f;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-image: conic-gradient(transparent, rgb(57, 77, 82), transparent 30%);
-    animation: rotate 3s linear infinite;
-}
-
-.position.animated::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    left: 6px;
-    top: 6px;
-    width: calc(100% - 12px);
-    height: calc(100% - 12px);
-    background-color: #88818f;
-    border-radius: 5px;
-}
-
-@keyframes rotate {
-    100% {
-        transform: rotate(1turn);
-    }
-}
-
 .calendar {
     margin-bottom: 30px;
 }
@@ -134,7 +87,7 @@ body {
 
 .btn-input {
     border-radius: 8px;
-    background-color: #2d313f;
+    background-color: #1c4bf3;
     border: transparent;
 
     color: #FFF;

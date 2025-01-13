@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 95vh;
-    background-color: rgb(189, 225, 246);
+    background-color: rgb(238, 232, 75);
 }
 
 .list {
@@ -24,6 +24,7 @@ body {
     z-index: 1;
 
     color: #fff;
+    background-color: #5bacfe;
     text-decoration: none;
     border: 3px solid #fff;
     border-radius: 18px;

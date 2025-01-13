@@ -48,15 +48,6 @@ body {
 
 }
 
-@keyframes wave {
-    0% {
-        transform: translateX(-50%) rotate(0deg);
-    }
-
-    100% {
-        transform: translateX(-50%) rotate(360deg);
-    }
-}
 
 .btn:hover {
     color: #64b56a;
